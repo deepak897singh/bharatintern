@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Watch TV Shows & Movies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="netflix_logo.png" alt="Netflix Logo">
+            <!-- Add navigation links here -->
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <h2>Watch anywhere. Cancel anytime.</h2>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="input-container">
+                <input type="email" placeholder="Email address">
+                <button>Get Started</button>
+            </div>
+        </section>
+
+        <section class="popular">
+            <h2>Popular on Netflix</h2>
+            <!-- Add popular content items here -->
+        </section>
+
+        <section class="trending">
+            <h2>Trending Now</h2>
+            <!-- Add trending content items here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Netflix, Inc.</p>
+    </footer>
+</body>
+</html>
